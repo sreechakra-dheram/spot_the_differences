@@ -16,7 +16,7 @@ A fun and interactive **“Spot the Difference”** game built using **HTML, CSS
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ How to Run 
 
 1. **Clone the repository**:
    ```bash
