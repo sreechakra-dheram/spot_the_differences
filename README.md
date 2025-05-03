@@ -22,3 +22,9 @@ A fun and interactive **“Spot the Difference”** game built using **HTML, CSS
    ```bash
    git clone https://github.com/sreechakra-dheram/spot_the_differences.git
    cd spot_the_differences
+2. Open index.html in any browser (no server setup needed).
+
+3. Start playing!
+
+**OR **
+Simply download the .zip file and run it in your VSCode or any other platform and run the index.html file
