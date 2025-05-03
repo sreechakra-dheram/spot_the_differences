@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #game-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .image-container img,
+  .image-container canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  #info {
+    margin-top: 10px;
+  }
+  
+  #message {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    #game-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
